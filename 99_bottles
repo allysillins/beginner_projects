@@ -1,0 +1,22 @@
+for x in reversed(range(1,100)):
+	if x > 2:
+		print (
+			str(x) + " bottles of beer on the wall "
+			+ str(x) + " bottles of beer."
+			+ " Take one down, pass it around. "
+			+ str(x-1) + " bottles of beer on the wall."
+			)
+	elif x == 2:
+		print (
+			str(x) + " bottles of beer on the wall "
+			+ str(x) + " bottles of beer."
+			+ " Take one down, pass it around. "
+			+ str(x-1) + " bottle of beer on the wall."
+			)
+	else:
+		print (
+			str(x) + " bottle of beer on the wall "
+			+ str(x) + " bottle of beer."
+			+ " Take one down, pass it around. "
+			+ str(x-1) + " bottles of beer on the wall."
+			)
